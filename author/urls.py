@@ -8,3 +8,5 @@ router.register("authors", AuthorViewSet)
 urlpatterns = [
     path("", include(router.urls))
 ]
+
+app_name = "author"
